@@ -108,5 +108,19 @@ deploy:
   type: ''
 
 social:
-  fab fa-github: https://github.com/1935zz || Github || "#hdhfbb"
+  github: https://github.com/1935zz
 
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true # 移动端是否显示
+  position: right # left or right
+  card_author:
+    enable: true
+    description: 这里写你的个人简介内容，比如：热爱编程的技术爱好者，专注于前端开发与算法学习。
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/1935zz

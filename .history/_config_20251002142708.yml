@@ -108,5 +108,5 @@ deploy:
   type: ''
 
 social:
-  fab fa-github: https://github.com/1935zz || Github || "#hdhfbb"
+  github: https://github.com/1935zz
 
