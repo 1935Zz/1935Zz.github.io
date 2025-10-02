@@ -1,0 +1,52 @@
+# Butterfly Theme Configuration Override
+# 覆盖Butterfly主题的默认配置
+
+menu:
+  首页: / || fas fa-home
+  关于我: /about/ || fas fa-heart
+
+# 目录设置
+toc:
+  post: true
+  page: false
+  number: false  # 设置为false以取消目录的自动编号
+  expand: false
+  style_simple: false
+  scroll_percent: true
+
+social:
+  fab fa-github: https://github.com/1935zz || Github || "#hdhfbb"
+
+# 侧边栏设置
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  card_author:
+    enable: true
+    description: # 你可以在这里添加个人简介，或者留空
+    button:
+      enable: false  # 设置为 false 来隐藏 Follow Me 按钮
+
+# 头像设置
+avatar:
+  img: /img/avatar.png  # 头像图片路径，可以是本地路径或网络链接
+  effect: false  # 头像特效，true为开启鼠标悬停转动效果
+
+# --------------------------------------
+# 導航設置
+# --------------------------------------
+
+nav:
+  # 導航欄 Logo 圖片
+  logo:
+  # 是否顯示標題
+  display_title: true
+  # 是否在滾動時顯示文章標題
+  display_post_title: true
+  # 是否固定導航欄
+  fixed: false
+
+default_top_img

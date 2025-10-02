@@ -8,7 +8,7 @@ subtitle: ''
 description: ''
 keywords: 
 author: 1935Zz
-language: zh-CN
+language: zh
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -107,5 +107,5 @@ theme: butterfly
 deploy:
   type: ''
 
-
+zh-CN
 

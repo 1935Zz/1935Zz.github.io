@@ -31,7 +31,7 @@ aside:
       enable: false  # 设置为 false 来隐藏 Follow Me 按钮
   card_announcement:
     enable: true
-    content: 初始化。添加DDIA读书笔记。
+    content: This is my Blog
   card_recent_post:
     enable: true
     # If set 0 will show all
