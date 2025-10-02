@@ -1,0 +1,28 @@
+---
+title: about
+date: 2025-10-02 14:27:18
+---
+
+## Hi there 👋
+
+<!--
+**1935Zz/1935Zz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+
+- 🎓 I graduated from Central China Normal University with a bachelor's degree in computer science and technology. 
+- 🥈 Won silver medal in ICPC during college.
+- 🔭 Now I'm working as a backend developer at Bytedance. 
+- 🌱 I will share my study notes in my repo and blog from time to time, including some backend development technologies and so on.
+- ❤️ Hobbies include listening to music🎵, piano🎹, cooking🍳, badminton🏸.
+- 📫 How to reach me: scy1935zz@outlook.com
