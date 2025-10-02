@@ -114,10 +114,10 @@ nav:
 default_top_img: /img/default-img.JPG  # 默认顶部图片路径
 
 # 图片灯箱效果
-fancybox: true
+lightbox: fancybox
 
 # 如果 fancybox 不行，试试这个
-medium_zoom: false
+# medium_zoom: false
 
 # 图片懒加载
 lazyload:
