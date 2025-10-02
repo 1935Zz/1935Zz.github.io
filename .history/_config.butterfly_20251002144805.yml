@@ -1,0 +1,18 @@
+# Butterfly Theme Configuration Override
+# 覆盖Butterfly主题的默认配置
+
+menu:
+  首页: / || fas fa-home
+  关于我: /about/ || fas fa-heart
+
+# 目录设置
+toc:
+  post: true
+  page: false
+  number: false  # 设置为false以取消目录的自动编号
+  expand: false
+  style_simple: false
+  scroll_percent: true
+
+social:
+  fab fa-github: https://github.com/1935zz || Github || "#hdhfbb"
