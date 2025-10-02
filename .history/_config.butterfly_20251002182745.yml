@@ -111,7 +111,7 @@ nav:
   # 是否固定導航欄
   fixed: false
 
-default_top_img: https://cdn.jsdelivr.net/gh/1935zz/1935zz.github.io@main/source/img/default-img.JPG  # 默认顶部图片路径
+default_top_img: https://cdn.jsdelivr.net/gh/1935zz/1935zz.github.io/img/default-img.JPG  # 默认顶部图片路径
 
 # 图片灯箱效果
 lightbox: fancybox
