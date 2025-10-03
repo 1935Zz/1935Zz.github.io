@@ -127,5 +127,7 @@ lazyload:
   blur: false
 
 site_verification:
+  # - name: google-site-verification
+  #   content: xxxxxx
   - name: baidu-site-verification
-    content: codeva-Pze6914nz6
+    content: xxxxxxx

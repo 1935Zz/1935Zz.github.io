@@ -126,6 +126,3 @@ lazyload:
   placeholder: # 可选，加载时的占位图
   blur: false
 
-site_verification:
-  - name: baidu-site-verification
-    content: codeva-Pze6914nz6
