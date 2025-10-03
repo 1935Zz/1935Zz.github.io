@@ -125,3 +125,10 @@ lazyload:
   field: site # site/post
   placeholder: # 可选，加载时的占位图
   blur: false
+
+# SEO 设置
+SEO:
+  # 是否自动生成描述
+  description: true
+  # 是否自动生成关键词
+  keywords: true
