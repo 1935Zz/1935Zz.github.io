@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://1935zz.com/sitemap.xml
+
+# Disallow: /admin/
+# Disallow: /private/

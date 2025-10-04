@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# 站点地图位置
+Sitemap: https://1935zz.com/sitemap.xml
+
+# 可选：禁止访问某些目录（如果需要的话）
+# Disallow: /admin/
+# Disallow: /private/
