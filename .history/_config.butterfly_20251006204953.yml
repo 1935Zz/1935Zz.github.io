@@ -3,8 +3,7 @@
 
 menu:
   首页: / || fas fa-home
-  分类: /categories/ || fas fa-folder-open
-  标签: /tags/ || fas fa-tags 
+  分类
   关于我: /about/ || fas fa-heart
 
 
