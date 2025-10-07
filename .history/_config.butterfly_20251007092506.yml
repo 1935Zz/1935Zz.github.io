@@ -34,7 +34,7 @@ aside:
       enable: false  # 设置为 false 来隐藏 Follow Me 按钮
   card_announcement:
     enable: true
-    content: 添加博弈论笔记。
+    content: 添加。
   card_recent_post:
     enable: true
     # If set 0 will show all
