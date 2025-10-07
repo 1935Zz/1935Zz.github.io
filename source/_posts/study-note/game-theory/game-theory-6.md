@@ -1,0 +1,81 @@
+---
+title: 博弈论六-纳什均衡，性别大战和古诺双寡头
+date: 2025-10-07 09:02:13
+tags: 
+   - "博弈论"
+categories:
+   - [Study-Note, 博弈论]
+---
+
+
+策略互补博弈：认为对方付出越多，自己就会付出越多。比如合伙人博弈和投资博弈。
+
+# 性别大战
+
+![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images6/image-5.png)
+
+与投资博弈不同
+
+投资博弈每个人倾向于同一个纳什均衡
+
+性别大战男女偏好不同的纳什均衡
+
+
+
+# 古诺双寡头
+
+参与人少，策略多
+
+两家公司，价格接受者
+
+可选策略是某种同质产品产量
+
+生产成本：c（单位成本）\*q(生产数量)  边缘成本为c
+
+价格p=a-b(q1+q2)，两家产量越高，价格越低
+
+利润=p\*q1-c\*q1=aq1-bq1^2-bq1q2-cq1
+
+为了使利润最大，对其求导，得到在不同q2情况下，q1的Best Response，同理可得q2的Best Response，两个BR曲线交点即为NE
+
+![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images6/image-4.png)
+
+
+
+
+
+![需求曲线，边际收益曲线，以及成本曲线](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images6/image-3.png)
+
+![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images6/image-2.png)
+
+通过经济学方法，也可以求得垄断产量（即另一家不生产时，自己的最佳产量）。
+
+边际收益斜率是需求曲线斜率2倍（涉及经济学知识），垄断产量即边际收益等于边际成本点，此时q(垄断产量)=(a-c)/2b&#x20;
+
+也可以求得对方多少产量时，自己的最佳策略是0。即需求曲线和边际成本交点（公司2生产了这么多导致价格下降到了边际成本，此时不生产最佳）
+
+
+
+古诺竞争不同于合伙人博弈，古诺竞争是策略替代博弈，即一个人增产，另一个人减产
+
+垄断情况下行业利润最大
+
+
+
+![假设双方约定好产量均为垄断产量一半
+问题1：实际上双方仍然会猜测对方产量来让自己的产量是Best Response，随着博弈层数增加，最后会趋向纳什均衡
+问题2：会有其它方产业加入其中](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images6/image.png)
+
+假设双方约定好产量均为垄断产量一半
+
+问题1：实际上双方仍然会猜测对方产量来让自己的产量是Best Response，随着博弈层数增加，最后会趋向纳什均衡
+
+问题2：会有其它方产业加入其中
+
+
+
+
+
+![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images6/image-1.png)
+
+纳什均衡和垄断、完全竞争对比，总产量小于完全竞争，大于垄断。价格小于垄断，大于完全竞争
