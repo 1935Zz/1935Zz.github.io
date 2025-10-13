@@ -14,7 +14,7 @@ keywords: 数据密集型应用系统设计,事务
 
 ## 七、事务
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/diagram-2.png)
+![](https://1935zz.com/img/data-intensive/diagram-2.png)
 
 将应用程序的多个读、写操作捆绑在一起成为一个逻辑操作单元。即事务中的所有读写是一个执行的整体，整个事务要么成功（提交）、要么失败（中止或回滚）。如果失败，应用程序可以安全地重试。这样，由于不需要担心部分失败的情况（无论出于何种原因），应用层的错误处理就变得简单很多。
 
@@ -80,7 +80,7 @@ keywords: 数据密集型应用系统设计,事务
 
 对于是尚未提交事务的先前的写入，防止另一个事务提交覆盖先前的写入。通常通过推迟第二个写请求，直到前面的的事务提交
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-34.png)
+![](https://1935zz.com/img/data-intensive/image-34.png)
 
 **实现读-提交**
 
@@ -92,7 +92,7 @@ keywords: 数据密集型应用系统设计,事务
 
 #### **快照级别隔离与可重复读**
 
-![读倾斜，对于读提交的问题，不可重复读](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-33.png)
+![读倾斜，对于读提交的问题，不可重复读](https://1935zz.com/img/data-intensive/image-33.png)
 
 快照级别隔离，解决常见手段。其总体想法是，每个事务都从数据库的一致性快照中读取，事务一开始所看到是最近提交的数据，即使数据随后可能被另一个事务更改，但保证每个事务都只看到该特定时间点的旧数据。
 
@@ -196,7 +196,7 @@ UPDATEcountersSETvalue=value+1WHEREkey='foo'并发安全
 
 **采用存储过程封装事务**
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-37.png)
+![](https://1935zz.com/img/data-intensive/image-37.png)
 
 **分区**
 
@@ -262,7 +262,7 @@ two-phaselocking,2PL
 
 * 写入是否影响即将完成的读取
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/screen2025-06-24-17.43.41.png)
+![](https://1935zz.com/img/data-intensive/screen2025-06-24-17.43.41.png)
 
 事务 42 的写影响了事务 43 的读取（42 先于 43 提交）
 

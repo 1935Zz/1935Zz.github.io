@@ -11,7 +11,7 @@ keywords: 数据密集型应用系统设计,数据编码,数据演化
 
 # 数据系统基础
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-39.png)
+![](https://1935zz.com/img/data-intensive/image-39.png)
 ## 四、数据编码与演化
 
 > 向后兼容：较新的代码可以读取由旧代码编写的数据。
@@ -42,11 +42,11 @@ keywords: 数据密集型应用系统设计,数据编码,数据演化
 
 编码大小可能更小，解析可能更快
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-12.png)
+![](https://1935zz.com/img/data-intensive/image-12.png)
 
 MessagePack
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-13.png)
+![](https://1935zz.com/img/data-intensive/image-13.png)
 
 **Thrift 和 ProtocolBuffers**
 
@@ -56,13 +56,13 @@ Thrift 使用 idl 描述模式，ProtocolBuffers 类似
 
 Thrift 有 2 种二进制编码格式，分别为 BinaryProtocol 和 CompactProtocol
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-2.png)
+![](https://1935zz.com/img/data-intensive/image-2.png)
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-5.png)
+![](https://1935zz.com/img/data-intensive/image-5.png)
 
 ProtocolBuffers 有一种
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-14.png)
+![](https://1935zz.com/img/data-intensive/image-14.png)
 
 required 和 optional 不记录在编码中，区别于，required 字段如果未填充运行检查出错，可用于捕获错误
 
@@ -82,15 +82,15 @@ Thrift 有专用列表数据类型，不支持单值到多值，但有支持嵌�
 
 两种模式语言，AvroIDL 和基于 JSON
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-1.png)
+![](https://1935zz.com/img/data-intensive/image-1.png)
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image.png)
+![](https://1935zz.com/img/data-intensive/image.png)
 
 编码无类型信息，按照出现的顺序遍历解析字段，所以模式必须完全匹配
 
 写模式和读模式不必完全一样，保持兼容即可，数据被读取时，Avro 库通过对比查看写模式和读模式并将数据从写模式转换为读模式来解决其差异
 
-![例如，如果写模式和读模式的字段顺序不同，这也没有问题，因为模式解析通过字段名匹配字段。如果读取数据的代码遇到出现在写模式但不在读模式中的字段，则忽略它。如果读取数据的代码需要某个字段，但是写模式不包含该名称的字段，则使用在读模式中声明的默认值填充。](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-28.png)
+![例如，如果写模式和读模式的字段顺序不同，这也没有问题，因为模式解析通过字段名匹配字段。如果读取数据的代码遇到出现在写模式但不在读模式中的字段，则忽略它。如果读取数据的代码需要某个字段，但是写模式不包含该名称的字段，则使用在读模式中声明的默认值填充。](https://1935zz.com/img/data-intensive/image-28.png)
 
 使用 Avro，向前兼容意味着可以将新版本的模式作为 writer，并将旧版本的模式作为 reader。相反，向后兼容意味着可以用新版本的模式作为 reader，并用旧版本的模式作为 write
 
@@ -136,7 +136,7 @@ Avro 可选代码生成，也可以不生成代码，在对象容器文件中包
 
 可能较新版本写入，较旧版本读，需要向前兼容
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-23.png)
+![](https://1935zz.com/img/data-intensive/image-23.png)
 
 数据重写为新模式，但代价较高，可以添加默认值为空而不重写，读取旧行为编码数据缺失的列填充为空值
 

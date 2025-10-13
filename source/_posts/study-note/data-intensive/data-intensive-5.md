@@ -61,7 +61,7 @@ keywords: 数据密集型应用系统设计,数据复制
 
 ## 五、数据复制
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-40.png)
+![](https://1935zz.com/img/data-intensive/image-40.png)
 目的
 
 * 使数据在地理位置上更接近用户，从而降低访问延迟。
@@ -88,7 +88,7 @@ keywords: 数据密集型应用系统设计,数据复制
 
 **同步复制与异步复制**
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-18.png)
+![](https://1935zz.com/img/data-intensive/image-18.png)
 
 同步复制
 
@@ -189,7 +189,7 @@ Mysqlbinlog
 
 **单调读**
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-22.png)
+![](https://1935zz.com/img/data-intensive/image-22.png)
 
 单调读保证，如果某个用户依次进行多次读取，则他绝不会看到回滚现象，即在读取较新值之后又发生读旧值的情况
 
@@ -199,7 +199,7 @@ Mysqlbinlog
 
 对于一系列按照某个顺序发生的写请求，那么读取这些内容时也会按照当时写人的顺序
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-21.png)
+![](https://1935zz.com/img/data-intensive/image-21.png)
 
 如果数据库总是以相同的顺序写入，则读取总是看到一致的序列，不会发生这种反常。然而，在许多分布式数据库中，不同的分区独立运行，因此不存在全局写入顺序。这就导致当用户从数据库中读数据时，可能会看到数据库的某部分旧值和另一部分新值。
 
@@ -225,7 +225,7 @@ Mysqlbinlog
 
 **处理写冲突**
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-29.png)
+![](https://1935zz.com/img/data-intensive/image-29.png)
 
 **冲突检测**
 
@@ -261,7 +261,7 @@ Mysqlbinlog
 
 复制的拓扑结构描述了写请求从一个节点的传播到其他节点的通信路径
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-24.png)
+![](https://1935zz.com/img/data-intensive/image-24.png)
 
 在环形和星形拓扑中，写请求需要通过多个节点才能到达所有的副本。防止无限循环，每个节点赋予一个标识符，日志中每个写请求标记已通过节点标识符。如果某个节点收到了包含自身标识符的数据更改，表明该请求已经被处理过，因此会忽略此变更请求，避免重复转发。
 
@@ -269,7 +269,7 @@ Mysqlbinlog
 
 全链接拓扑也存在一些自身的问题。主要是存在某些网络链路比其他链路更快的情况（例如由于不同网络拥塞），从而导致复制日志之间的覆盖，如图 5-9 所示。
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-16.png)
+![](https://1935zz.com/img/data-intensive/image-16.png)
 
 更新依赖于之前的插入。日志仅添加时间戳还不够，无法确保时钟完全同步，无法在主节点 2 上正确排序日志
 
@@ -285,7 +285,7 @@ Mysqlbinlog
 
 无需主节点切换，失效节点恢复后同步，通过版本号区分新旧值
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-17.png)
+![](https://1935zz.com/img/data-intensive/image-17.png)
 
 **读修复与反熵**
 
@@ -339,7 +339,7 @@ r（读节点个数）>n（副本个数）-w（写入节点确认数）即可保
 
 **检测并发写**
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-25.png)
+![](https://1935zz.com/img/data-intensive/image-25.png)
 
 如何处理写冲突
 
@@ -365,7 +365,7 @@ r（读节点个数）>n（副本个数）-w（写入节点确认数）即可保
 
 **确定前后关系**
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-19.png)
+![](https://1935zz.com/img/data-intensive/image-19.png)
 
 * 服务器为每个主键维护一个版本号，每当主键新值写入时递增版本号，并将新版本号与写入的值一起保存。
 

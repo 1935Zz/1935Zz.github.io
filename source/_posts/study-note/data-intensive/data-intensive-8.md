@@ -13,7 +13,7 @@ keywords: 数据密集型应用系统设计,分布式系统
 
 ## 八、分布式系统挑战
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/diagram-3.png)
+![](https://1935zz.com/img/data-intensive/diagram-3.png)
 
 与单节点系统差异显著，会出现各种问题
 
@@ -69,7 +69,7 @@ keywords: 数据密集型应用系统设计,分布式系统
 
 6. 远程接收节点已经完成请求处理，回复被延迟处理
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/screen2025-06-25-15.51.37.png)
+![](https://1935zz.com/img/data-intensive/screen2025-06-25-15.51.37.png)
 
 #### 检测故障
 

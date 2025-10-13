@@ -38,7 +38,7 @@ categories:
 
 
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images2/diagram.png)
+![](https://1935zz.com/img/game-theory/images2/diagram.png)
 
 对于invader，并不存在严格优势策略，但easy pass策略弱优于hard pass
 

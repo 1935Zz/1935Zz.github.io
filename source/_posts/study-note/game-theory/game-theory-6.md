@@ -12,7 +12,7 @@ categories:
 
 # 性别大战
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images6/image-5.png)
+![](https://1935zz.com/img/game-theory/images6/image-5.png)
 
 与投资博弈不同
 
@@ -38,15 +38,15 @@ categories:
 
 为了使利润最大，对其求导，得到在不同q2情况下，q1的Best Response，同理可得q2的Best Response，两个BR曲线交点即为NE
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images6/image-4.png)
+![](https://1935zz.com/img/game-theory/images6/image-4.png)
 
 
 
 
 
-![需求曲线，边际收益曲线，以及成本曲线](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images6/image-3.png)
+![需求曲线，边际收益曲线，以及成本曲线](https://1935zz.com/img/game-theory/images6/image-3.png)
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images6/image-2.png)
+![](https://1935zz.com/img/game-theory/images6/image-2.png)
 
 通过经济学方法，也可以求得垄断产量（即另一家不生产时，自己的最佳产量）。
 
@@ -64,7 +64,7 @@ categories:
 
 ![假设双方约定好产量均为垄断产量一半
 问题1：实际上双方仍然会猜测对方产量来让自己的产量是Best Response，随着博弈层数增加，最后会趋向纳什均衡
-问题2：会有其它方产业加入其中](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images6/image.png)
+问题2：会有其它方产业加入其中](https://1935zz.com/img/game-theory/images6/image.png)
 
 假设双方约定好产量均为垄断产量一半
 
@@ -76,6 +76,6 @@ categories:
 
 
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images6/image-1.png)
+![](https://1935zz.com/img/game-theory/images6/image-1.png)
 
 纳什均衡和垄断、完全竞争对比，总产量小于完全竞争，大于垄断。价格小于垄断，大于完全竞争

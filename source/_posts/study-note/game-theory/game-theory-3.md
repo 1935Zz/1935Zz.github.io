@@ -57,5 +57,5 @@ categories:
 
 
 
-![通过坐标系反映随着对方选r策略的概率（在自己看来）改动自己不同策略的收益。可以根据对方选r策略的概率不同选出最佳对策](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images3/image.png)
+![通过坐标系反映随着对方选r策略的概率（在自己看来）改动自己不同策略的收益。可以根据对方选r策略的概率不同选出最佳对策](https://1935zz.com/img/game-theory/images3/image.png)
 

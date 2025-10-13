@@ -21,19 +21,19 @@ categories:
 
 3. 博弈的结果会趋向于NE
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images5/image-3.png)
+![](https://1935zz.com/img/game-theory/images5/image-3.png)
 
 纳什均衡例子
 
 
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images5/image-2.png)
+![](https://1935zz.com/img/game-theory/images5/image-2.png)
 
 NE和优劣策略关系，如果策略A劣于策略B，那么策略A不可能成为NE
 
 
 
-![2个纳什均衡，弱劣势策略也成为了纳什均衡](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images5/image.png)
+![2个纳什均衡，弱劣势策略也成为了纳什均衡](https://1935zz.com/img/game-theory/images5/image.png)
 
 严格劣势策略不会在纳什均衡中出现，但弱劣势策略不一定
 
@@ -41,7 +41,7 @@ NE和优劣策略关系，如果策略A劣于策略B，那么策略A不可能成
 
 # 投资博弈
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images5/image-1.png)
+![](https://1935zz.com/img/game-theory/images5/image-1.png)
 
 每个人可以选择投资10元或不投资
 

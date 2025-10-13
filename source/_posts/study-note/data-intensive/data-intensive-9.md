@@ -16,7 +16,7 @@ keywords: 数据密集型应用系统设计,一致性,共识
 
 ## 九、一致性与共识
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/diagram-4.png)
+![](https://1935zz.com/img/data-intensive/diagram-4.png)
 
 类比事务的抽象可以让应用程序可以假装没有崩溃（原⼦性），没有与其他⼈并发访问数据库（隔离性），且存储设备是完全可靠的（持久性），尝试建立可以让分布式系统应用忽略内部各种问题的抽象机制
 
@@ -36,13 +36,13 @@ keywords: 数据密集型应用系统设计,一致性,共识
 
 ### 可线性化
 
-![非线性化例子](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/screen2025-06-27-14.35.10.png)
+![非线性化例子](https://1935zz.com/img/data-intensive/screen2025-06-27-14.35.10.png)
 
 可线性化基本思想：**使系统看起来好像只有一个数据副本**
 
-![一个重要约束](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/screen2025-06-27-14.56.19.png)
+![一个重要约束](https://1935zz.com/img/data-intensive/screen2025-06-27-14.56.19.png)
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/screen2025-06-27-15.01.41.png)
+![](https://1935zz.com/img/data-intensive/screen2025-06-27-15.01.41.png)
 
 CAP 理论，在出现网络故障时，一致性（线性化）和可用性无法兼具
 
@@ -104,7 +104,7 @@ CAP 理论，在出现网络故障时，一致性（线性化）和可用性无�
 
 值对（计数器，节点 ID）
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-36.png)
+![](https://1935zz.com/img/data-intensive/image-36.png)
 
 最大计数器值嵌入到每一个请求中，如果发现收到的响应或请求中的最大值大于自身的技术器值，则把自己的计数器修改为该最大值
 
@@ -146,9 +146,9 @@ CAP 理论，在出现网络故障时，一致性（线性化）和可用性无�
 
 #### 原子提交和2PC（两阶段提交）
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-32.png)
+![](https://1935zz.com/img/data-intensive/image-32.png)
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-31.png)
+![](https://1935zz.com/img/data-intensive/image-31.png)
 
 #### 实践中的分布式事务
 

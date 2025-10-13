@@ -19,7 +19,7 @@ Pi(Si)可以是0，也可以是1（此时是纯策略）
 
 如何计算混合策略Pi的期望收益
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images9/image.png)
+![](https://1935zz.com/img/game-theory/images9/image.png)
 
 如上图，Pi的期望收益为每个纯策略的期望收益的加权平均，下面给出了一个计算混合策略P的期望收益
 
@@ -37,7 +37,7 @@ Pi(Si)可以是0，也可以是1（此时是纯策略）
 
 # 网球博弈
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images9/image-1.png)
+![](https://1935zz.com/img/game-theory/images9/image-1.png)
 
 V针对S的BR是反方向击球，S针对V的BR是同方向击球，因此没有交集的最佳对策
 
@@ -45,9 +45,9 @@ V针对S的BR是反方向击球，S针对V的BR是同方向击球，因此没有
 
 
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images9/image-2.png)
+![](https://1935zz.com/img/game-theory/images9/image-2.png)
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images9/image-3.png)
+![](https://1935zz.com/img/game-theory/images9/image-3.png)
 
 * 技巧
 
@@ -63,7 +63,7 @@ V针对S的BR是反方向击球，S针对V的BR是同方向击球，因此没有
 
 
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images9/image-4.png)
+![](https://1935zz.com/img/game-theory/images9/image-4.png)
 
 假设收益矩阵改变，(L,l)的收益由（50,50）变为（30,70）
 
@@ -73,9 +73,9 @@ V针对S的BR是反方向击球，S针对V的BR是同方向击球，因此没有
 
 2. 策略影响：Venus左击球更少了，所以Serena采用l也更少->q减少
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images9/image-5.png)
+![](https://1935zz.com/img/game-theory/images9/image-5.png)
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images9/image-6.png)
+![](https://1935zz.com/img/game-theory/images9/image-6.png)
 
 采用类似的方法计算Serena的混合策略，算出q更小了，因此策略的影响更大
 

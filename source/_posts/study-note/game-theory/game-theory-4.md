@@ -11,9 +11,9 @@ categories:
 
 射手和门将的博弈，射手有左中右（L，M，R）三种策略，门将有两种策略(l,r)
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images4/image-3.png)
+![](https://1935zz.com/img/game-theory/images4/image-3.png)
 
-![中路射门无论在哪种信念下都不是一个BR(Best Response)](<https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images4/截屏2025-10-03 21.50.54.png>)
+![中路射门无论在哪种信念下都不是一个BR(Best Response)](<https://1935zz.com/img/game-theory/images4/截屏2025-10-03 21.50.54.png>)
 
 可以发现中路射门无论在哪种信念下都不是一个BR(Best Response)
 
@@ -21,7 +21,7 @@ categories:
 
 BR(Best Response)定义
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images4/image-4.png)
+![](https://1935zz.com/img/game-theory/images4/image-4.png)
 
 定义一：参与者策略si对于其它参与者s-i策略是一个BR，如果对参与者的所有策略，si的收益都大于等于其它策略的收益
 
@@ -31,7 +31,7 @@ BR(Best Response)定义
 
 # 合伙人博弈
 
-![两个人可以选择\[0,4\]之间的实数，总收益包含了合作收益（bS1S2)，每个人有S\*S的成本](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images4/image-5.png)
+![两个人可以选择\[0,4\]之间的实数，总收益包含了合作收益（bS1S2)，每个人有S\*S的成本](https://1935zz.com/img/game-theory/images4/image-5.png)
 
 两个人可以选择\[0,4]之间的实数，总收益包含了合作收益（bS1S2)，每个人有S\*S的成本
 
@@ -41,7 +41,7 @@ BR(Best Response)定义
 
 ![将这个最大化看成S1的函数，对其求两次导，可以得到关于S2的BR函数（即S1最佳策略）
 同理可得关于S1的BR函数，在坐标系上画出对应BR函数
-可以发现\[0,1\]和\[2,4\]的区间在任何belief下都不是BR，因此剔除](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images4/image-2.png)
+可以发现\[0,1\]和\[2,4\]的区间在任何belief下都不是BR，因此剔除](https://1935zz.com/img/game-theory/images4/image-2.png)
 
 将这个最大化看成S1的函数，对其求两次导，可以得到关于S2的BR函数（即S1最佳策略）
 
@@ -53,14 +53,14 @@ BR(Best Response)定义
 
 
 
-![对于\[1,2\]区间，此时I认为II只会选择1以上，2以下的策略，那么对于I，\[1,5/4\]和\[6/4,2\]区间会被剔除（并不是说这两个区间不是BR，这两个区间在某种情况下是BR，但是使它们成为BR的条件不存在，因为双方都认为对方不会选择1以下和2以上的策略）](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images4/image.png)
+![对于\[1,2\]区间，此时I认为II只会选择1以上，2以下的策略，那么对于I，\[1,5/4\]和\[6/4,2\]区间会被剔除（并不是说这两个区间不是BR，这两个区间在某种情况下是BR，但是使它们成为BR的条件不存在，因为双方都认为对方不会选择1以下和2以上的策略）](https://1935zz.com/img/game-theory/images4/image.png)
 
 对于\[1,2]区间，此时I认为II只会选择1以上，2以下的策略，那么对于I，\[1,5/4]和\[6/4,2]区间会被剔除（并不是说这两个区间不是BR，这两个区间在某种情况下是BR，但是使它们成为BR的条件不存在，因为双方都认为对方不会选择1以下和2以上的策略）
 
 实际上这样的组合收益很低，产生这种现象原因是因为边际效应，自己付出了更多，但获得的回报更少
 
 ![随着b值(协同效应)的降低，交点会越来越往原点缩，形成剪刀效应。
-两线交点也称纳什均衡。当参与者I选择最佳对策S1\*，参与者II会选择最佳对策S2\*。反之亦然。此时双方都采取了最佳策略，没有人会偏离这一点](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images4/image-1.png)
+两线交点也称纳什均衡。当参与者I选择最佳对策S1\*，参与者II会选择最佳对策S2\*。反之亦然。此时双方都采取了最佳策略，没有人会偏离这一点](https://1935zz.com/img/game-theory/images4/image-1.png)
 
 随着b值(协同效应)的降低，交点会越来越往原点缩，形成剪刀效应
 

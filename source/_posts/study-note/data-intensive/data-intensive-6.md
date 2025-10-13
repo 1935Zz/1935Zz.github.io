@@ -13,7 +13,7 @@ keywords: 数据密集型应用系统设计,数据分区
 
 ## 六、数据分区
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/diagram-1.png)
+![](https://1935zz.com/img/data-intensive/diagram-1.png)
 
 分区：每一条数据（或者每条记录，每行或每个文档）只属于某个特定分区
 
@@ -25,7 +25,7 @@ keywords: 数据密集型应用系统设计,数据分区
 
 一个节点上可能存储了多个分区。图 6-1 展示了主从复制模型与分区组合使用时数据的分布情况。由图可知，每个分区都有自己的主副本，例如被分配给某节点，而从副本则分配在其他一些节点。一个节点可能即是某些分区的主副本，同时又是其他分区的从副本。
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-26.png)
+![](https://1935zz.com/img/data-intensive/image-26.png)
 
 ### 键-值数据的分区
 
@@ -47,7 +47,7 @@ keywords: 数据密集型应用系统设计,数据分区
 
 **基于文档分区的二级索引**
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-20.png)
+![](https://1935zz.com/img/data-intensive/image-20.png)
 
 每个分区完全独立，各自维护自己的二级索引，且只负责自己分区内的文档而不关心其他分区中数据
 
@@ -59,7 +59,7 @@ keywords: 数据密集型应用系统设计,数据分区
 
 对所有的数据构建全局索引，而不是每个分区维护自己的本地索引，但索引也需要分区
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-27.png)
+![](https://1935zz.com/img/data-intensive/image-27.png)
 
 以待查找的关键字本身作为索引，可以通过关键词排序换分索引分区（如 a-r 在分区 0，s-z 在分区 1），也可以哈希划分
 
@@ -93,7 +93,7 @@ keywords: 数据密集型应用系统设计,数据分区
 
 创建远超实际节点数的分区数，然后为每个节点分配多个分区
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-15.png)
+![](https://1935zz.com/img/data-intensive/image-15.png)
 
 分区的数量往往在数据库创建时就确定好，之后不会改变。原则上也可以拆分和合并分区（稍后介绍），但固定数量的分区使得相关操作非常简单，因此许多采用固定分区策略的数据库决定不支持分区拆分功能。所以，在初始化时，已经充分考虑将来扩容增长的需求（未来可能拥有的最大节点数），设置一个足够大的分区数。而每个分区也有些额外的管理开销，分区数量过多可能会有副作用
 
@@ -117,11 +117,11 @@ keywords: 数据密集型应用系统设计,数据分区
 
 ### 请求路由
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-35.png)
+![](https://1935zz.com/img/data-intensive/image-35.png)
 
 也可以依靠独立的协调服务（如 ZooKeeper）跟踪集群范围内的元数据
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-30.png)
+![](https://1935zz.com/img/data-intensive/image-30.png)
 
 **并行查询执行**
 

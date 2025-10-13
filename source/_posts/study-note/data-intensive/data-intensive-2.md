@@ -55,7 +55,7 @@ MapReduce，两者都不是，底层的编程模型，计算集群分布执行
 
 cypher 查询语言，声明式
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-7.png)
+![](https://1935zz.com/img/data-intensive/image-7.png)
 
 三元存储
 
@@ -63,7 +63,7 @@ cypher 查询语言，声明式
 
 SPARQL：RDF 数据模型的三元存储查询语言
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-6.png)
+![](https://1935zz.com/img/data-intensive/image-6.png)
 
 
 
@@ -79,7 +79,7 @@ SPARQL：RDF 数据模型的三元存储查询语言
 
 Datalog：谓语（主体，客体）的表达方式
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-11.png)
+![](https://1935zz.com/img/data-intensive/image-11.png)
 
 定义新谓语的规则，从数据或其他规则派生而来，每次完成一小块，派生出复杂的查询
 

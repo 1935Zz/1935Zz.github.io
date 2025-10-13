@@ -9,13 +9,13 @@ categories:
 
 # 性别大战
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images10/image.png)
+![](https://1935zz.com/img/game-theory/images10/image.png)
 
 性别大战中的混合策略
 
 
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images10/image-1.png)
+![](https://1935zz.com/img/game-theory/images10/image-1.png)
 
 用同样的方法找出混合策略的NE，每个参与者的纯策略期望收益相同
 
@@ -25,7 +25,7 @@ categories:
 
 # 税收博弈
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images10/image-2.png)
+![](https://1935zz.com/img/game-theory/images10/image-2.png)
 
 缴税者可选择如实上报或隐瞒，审查者可选择审查或不审查
 
@@ -35,6 +35,6 @@ categories:
 
 
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images10/image-3.png)
+![](https://1935zz.com/img/game-theory/images10/image-3.png)
 
 如果增加逃税被检查出来的惩罚，由-10变为-20，实际不会改变最后混合策略NE中缴税者的策略，而是改变了审计者的策略，因此要增加缴税率，应该改变审计者的收益，减少审计的成本，增加抓住逃税者的奖励

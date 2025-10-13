@@ -84,7 +84,7 @@ lucene，全文搜索索引引擎，kv 结构，key 是单词，value 是 id 列
 
 WAL 崩溃恢复，锁控制并发
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/diagram.png)
+![](https://1935zz.com/img/data-intensive/diagram.png)
 
 **其它索引结构**
 
@@ -98,7 +98,7 @@ WAL 崩溃恢复，锁控制并发
 
 ### 事务处理与分析处理
 
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-4.png)
+![](https://1935zz.com/img/data-intensive/image-4.png)
 
 放弃用 OLTP 用于分析，用单独的数据库进行分析，产生了数据仓库
 
@@ -106,12 +106,12 @@ WAL 崩溃恢复，锁控制并发
 
 不影响 OLTP，从 OLTP 提取数据，分析友好
 
-![提取-转换-加载(Extract-Transform-Load,ETL)](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-3.png)
+![提取-转换-加载(Extract-Transform-Load,ETL)](https://1935zz.com/img/data-intensive/image-3.png)
 
 
 事实表：星型模式的中心，每一行表示在特定时间发生的事件，数据量大，列数大（如下图的fact_sales就是事实表）
 
-![中间的fact_sales就是事实表](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-38.png)
+![中间的fact_sales就是事实表](https://1935zz.com/img/data-intensive/image-38.png)
 
 由于每次只读取一行中的少数几列，面向行的存储引擎仍需要将所有行从磁盘加载到内存中，效率较低
 
@@ -133,7 +133,7 @@ WAL 崩溃恢复，锁控制并发
 
 物化视图的特殊情况：数据立方体（OLAP 立方体）
 
-![二维的例子，也可能有多维](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/data-intensive/image-8.png)
+![二维的例子，也可能有多维](https://1935zz.com/img/data-intensive/image-8.png)
 
 优点：某些查询会很快
 
