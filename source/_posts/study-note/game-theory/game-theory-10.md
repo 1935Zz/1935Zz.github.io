@@ -38,4 +38,3 @@ categories:
 ![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images10/image-3.png)
 
 如果增加逃税被检查出来的惩罚，由-10变为-20，实际不会改变最后混合策略NE中缴税者的策略，而是改变了审计者的策略，因此要增加缴税率，应该改变审计者的收益，减少审计的成本，增加抓住逃税者的奖励
-![](https://cdn.jsdelivr.net/gh/1935Zz/1935zz.github.io@main/source/img/game-theory/images10/
